@@ -1,0 +1,120 @@
+ * {
+      top: 0;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Roboto;
+      background-color: rgb(137, 206, 233);
+    }
+
+    /* Navbar Container */
+    nav {
+      background-color: hsl(195, 55%, 23%);
+      color: #b5ceda;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 80px;
+      position: fixed;
+      width: 100%;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    /* Nav Links */
+    .nav-links {
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .nav-links li {
+      margin: 0 15px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #f8f7f8;
+      font-size: 1rem;
+      transition: color 0.3s ease;
+    }
+
+    .nav-links a:hover {
+      color: #032c31;
+    }
+    /* main {
+      margin-top: 90px;
+    } */
+
+        .left {
+            font-size: xx-large;
+        }
+
+        .first {
+            display: flex;
+            justify-content: space-around;
+            margin: 280px 0;
+            /* align-items: center; */
+        }
+
+        .first>div {
+            width: 40%;
+        }
+
+        .leftsection {
+            /* margin: 70px 0; */
+            font-size: 3rem;
+
+        }
+
+        .rightsection img {
+            height: 100vh;
+            background-size: cover;
+        }
+
+        .color {
+            color: rgb(4, 108, 116);
+        }
+
+        .about {
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+        }
+        .side-text{
+            width: 70vw;
+            font-size: x-large;
+            font-family:'Poppins',sans-serif;
+        }
+        .side-text ul{
+            list-style: none;
+        }
+        .links{
+          margin:20px;
+        }
+        a{
+          color: white;
+          padding:10px 20px;
+          border-radius: 5px;
+          display: inline-block;
+        }
+        .email-link{
+          background-color: #012717;
+        }
+        .Linkedin{
+          background-color:  #012717;
+        }
+        .Twitter{
+          background-color: #012717;
+        }
+
